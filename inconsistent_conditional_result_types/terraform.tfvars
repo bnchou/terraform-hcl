@@ -4,10 +4,17 @@ storage_account = {
     location = "westeurope"
     identity = {
       type = "SystemAssigned"
+      more = {
+        field = "test"
+      }
     }
   }
   uk = {
     name = "london"
     location = "uksouth"
+    identity = {
+      type = ""
+      more = {}
+    }
   }
 }

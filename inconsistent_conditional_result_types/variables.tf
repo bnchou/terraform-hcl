@@ -4,5 +4,5 @@ variable "storage_account" {
 
 variable "deploy_storage_account"{
   type = bool
-  default = false
+  default = true
 }  
